@@ -51,6 +51,11 @@ with col2:
             x[loc_index]=1
 
         prediction=round(model.predict([x])[0],2)
-        st.success(f"Estimated House Price: ₹ {prediction} Lakhs")
+        # st.success(f"Estimated House Price: ₹ {prediction} Lakhs")
+        st.markdown(
+    f"<div style='color: green; font-weight: bold;'>Estimated House Price: ₹ {prediction} Lakhs</div>",
+    unsafe_allow_html=True
+)
+
         
 
