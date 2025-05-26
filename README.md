@@ -27,7 +27,3 @@ It covers the **end-to-end ML pipeline**, from data preprocessing to model train
 - Interactive **Streamlit web app** to make predictions in real time
 - Trained using `Linear Regression` (or mention if different)
 - Simple UI to select inputs like location, BHK, square feet, etc.
-
-  
- 
->>>>>>> a3cc913fee9319f0f275ea23468808835d4a56b6
