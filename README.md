@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 # House Price Prediction App
 
 This is a machine learning-based web application that predicts house prices in Bengaluru, India. The project uses real-world housing data from Kaggle and walks through the full pipeline: data preprocessing, model training, serialization, and deployment using Streamlit.
@@ -28,12 +39,4 @@ It covers the **end-to-end ML pipeline**, from data preprocessing to model train
 - Simple UI to select inputs like location, BHK, square feet, etc.
 
   
- 📁 Project Structure
-.
-├── Housepriceprediction.ipynb     # Notebook with data exploration & model training
-├── app.py                         # Streamlit web application
-├── housepriceprediction.pkl       # Trained model file
-├── columns.json                   # List of input features
-├── .gitignore                     # Ignored files 
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+ n
