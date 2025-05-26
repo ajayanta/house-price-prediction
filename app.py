@@ -9,7 +9,7 @@ with open("columns.json","r")as f:
     data=json.load(f)
 
 st.markdown("<h1 style='text-align: center;'>House Price Prediction</h1>",unsafe_allow_html=True)
-st.image(r"C:\Users\KIIT\Downloads\hpp.gif",width=520)
+st.image("https://i.postimg.cc/mrsQTCLz/hpp.gif",width=520)
 
 all_columns=data['data_columns']
 non_location_cols=['total_sqft','bath','bhk']
