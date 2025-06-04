@@ -1,0 +1,31 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore unused Jupyter notebooks
+Housepriceprediction.ipynb
+
+# Ignore image files (e.g., screenshots)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore common editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore Git-related files
+.git/
+.gitignore
